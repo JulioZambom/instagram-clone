@@ -71,11 +71,7 @@ const PostCard = ({
               <Icons name="ios-heart-outline" size={28} color="white" />
             )}
           </Button>
-          <Button
-            onDoublePress={() => {
-              console.log("double clicked");
-            }}
-          >
+          <Button>
             <Icons name="ios-chatbubbles-outline" size={28} color="white" />
           </Button>
           <Button>
