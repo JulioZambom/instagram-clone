@@ -22,19 +22,6 @@ const PostCard = ({
 }) => {
   const [isSaved, setIsSaved] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
-
-  function toggleIsSaved() {
-    setIsSaved((prevState) => !prevState);
-  }
-
-  function toggleIsLiked() {
-    setIsLiked((prevState) => !prevState);
-  }
-
-  function handleLikePost() {
-    setIsLiked(true);
-  }
-
   const [hasClickedFirst, setHasClickedFirst] = useState(false);
 
   useEffect(() => {
@@ -44,6 +31,14 @@ const PostCard = ({
       }, 1000);
     }
   }, [hasClickedFirst]);
+
+  function toggleIsSaved() {
+    setIsSaved((prevState) => !prevState);
+  }
+
+  function toggleIsLiked() {
+    setIsLiked((prevState) => !prevState);
+  }
 
   function handleLikePost() {
     setHasClickedFirst(true);
