@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Text } from "react-native";
-import DoubleClick from "react-native-double-click";
 import Icons from "react-native-vector-icons/Ionicons";
 
 import {
@@ -15,6 +13,7 @@ import {
   IconsLeft,
   Button,
   DescContainer,
+  DoubleClick,
 } from "./styles";
 
 const PostCard = ({
@@ -54,9 +53,9 @@ const PostCard = ({
         <ProfilePic source={{ uri: profilepic }}></ProfilePic>
         <User>{user}</User>
       </PostHeader>
-      <Button onPress={() => handleLikePost()} isImageButton>
+      <DoubleClick activeOpacity={1} onPress={() => handleLikePost()} isImageButton>
         <Image source={{ uri: image }} />
-      </Button>
+      </DoubleClick>
       <PostSubHeader>
         <IconsLeft>
           <Button onPress={() => toggleIsLiked()}>
@@ -85,7 +84,7 @@ const PostCard = ({
       {description ? (
         <DescContainer>
           <Description>
-            <User>{user}</User>
+            <User>{user} </User>
             {description}
           </Description>
         </DescContainer>

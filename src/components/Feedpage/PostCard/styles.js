@@ -59,12 +59,15 @@ export const PostSubHeader = styled.View`
 
 export const IconsLeft = styled.View`
   flex-direction: row;
-  margin-left: 7px;
+  margin-left: 13px;
 `;
 
 export const Button = styled.TouchableHighlight`
-  /* margin-horizontal: 7px; */
-  margin-right: ${({ isImageButton }) => (isImageButton ? "0px" : "12px")};
+  margin-right: 12px;
+`;
+
+export const DoubleClick = styled.TouchableOpacity`
+  
 `;
 
 export const DescContainer = styled.View`
