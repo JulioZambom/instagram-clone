@@ -44,6 +44,22 @@ const state = [
     description: "",
     likes: "37",
   },
+  {
+    id: 6,
+    profilepic: "https://i.imgur.com/hkNWyN2.jpeg",
+    user: "jvvab",
+    image: "https://i.imgur.com/hkNWyN2.jpeg",
+    description: "",
+    likes: "302",
+  },
+  {
+    id: 7,
+    profilepic: "https://i.imgur.com/72JbTJm.jpg",
+    user: "isa_dantasz",
+    image: "https://i.imgur.com/72JbTJm.jpg",
+    description: ":)",
+    likes: "182",
+  },
 ];
 
 const Feedpage = () => {
