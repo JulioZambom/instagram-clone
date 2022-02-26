@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const MainContainer = styled.View`
-  top: 0;
+ 
 `;
 
 export const User = styled.Text`
@@ -18,7 +18,7 @@ export const Image = styled.Image`
 
 export const Likes = styled.Text`
   color: white;
-  margin-left: 16px;
+  margin-left: 15px;
   font-weight: bold;
 `;
 
@@ -26,7 +26,7 @@ export const Description = styled.Text`
   color: white;
   margin-top: 3px;
   margin-bottom: 15px;
-  margin-left: 16px;
+  margin-left: 15px;
   flex: 1;
   margin-right: 8px;
 `;
@@ -35,7 +35,7 @@ export const ProfilePic = styled.Image`
   width: 36px;
   height: 36px;
   border-radius: 18px;
-  margin-left: 7px;
+  margin-left: 8px;
 `;
 
 export const PostHeader = styled.View`

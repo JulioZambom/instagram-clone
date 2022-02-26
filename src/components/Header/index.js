@@ -1,6 +1,12 @@
 import React from 'react'
-import { MainContainer, HeaderTitle, IconContainer, Button } from './styles';
 import Icons from 'react-native-vector-icons/Ionicons'
+
+import { MainContainer,
+     Logo,
+     IconContainer,
+     Button 
+} from './styles';
+import logo from '../../assets/logo.png';
 
 // ios-heart-outline
 // ios-add-circle-outline
@@ -9,7 +15,7 @@ import Icons from 'react-native-vector-icons/Ionicons'
 const Header = () =>{
     return(
     <MainContainer>
-        <HeaderTitle>Instagram</HeaderTitle>
+        <Logo source={logo} resizeMode='contain'/>
         <IconContainer>
         <Button className="btn"><Icons name="ios-heart-outline" size={28} color='white'/></Button>
         <Button className="btn"><Icons name="ios-add-circle-outline" size={28} color='white'/></Button>

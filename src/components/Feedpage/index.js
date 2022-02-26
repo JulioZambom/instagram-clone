@@ -1,6 +1,6 @@
 import React from "react";
-import PostCard from "./PostCard/index.js";
-import { MainContainer } from "./styles.js";
+import PostCard from "./PostCard";
+import { MainContainer } from "./styles";
 
 const state = [
   {

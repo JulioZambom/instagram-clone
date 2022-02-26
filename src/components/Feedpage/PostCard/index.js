@@ -53,14 +53,14 @@ const PostCard = ({
         <ProfilePic source={{ uri: profilepic }}></ProfilePic>
         <User>{user}</User>
       </PostHeader>
-      <DoubleClick activeOpacity={1} onPress={() => handleLikePost()} isImageButton>
-        <Image source={{ uri: image }} />
+      <DoubleClick activeOpacity={1} onPress={() => handleLikePost()}>
+          <Image source={{ uri: image }} />       
       </DoubleClick>
       <PostSubHeader>
         <IconsLeft>
           <Button onPress={() => toggleIsLiked()}>
             {isLiked ? (
-              <Icons name="heart" size={28} color="red" />
+              <Icons name="heart" size={28} color="#ed4958" />
             ) : (
               <Icons name="ios-heart-outline" size={28} color="white" />
             )}
