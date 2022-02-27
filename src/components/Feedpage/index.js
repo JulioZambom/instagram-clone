@@ -9,7 +9,7 @@ const state = [
     user: "arrudonimous.js",
     image: "https://i.imgur.com/gLh9qCE.jpg",
     description: "Há duas coisas infinitas: O universo e a tolice dos Homens.",
-    likes: "112",
+    likes: 112,
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const state = [
     image: "https://i.imgur.com/8jBZXvl.jpg",
     description:
       "um amor atemporal obrigado por deixar tudo mais brilhante te amo meu sol! @meend._",
-    likes: "67",
+    likes: 67,
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const state = [
     user: "_jwlio",
     image: "https://i.imgur.com/zWYdF86.jpg",
     description: "já era hora",
-    likes: "77",
+    likes: 77,
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const state = [
     user: "bznmxz",
     image: "https://i.imgur.com/tY3wY9D.png",
     description: "Acomodação é morte. Evoluir virou um vício",
-    likes: "107",
+    likes: 107,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const state = [
     user: "_henrique_46_",
     image: "https://i.imgur.com/6d8PkPO.png",
     description: "",
-    likes: "37",
+    likes: 37,
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const state = [
     user: "jvvab",
     image: "https://i.imgur.com/hkNWyN2.jpeg",
     description: "",
-    likes: "302",
+    likes: 302,
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const state = [
     user: "isa_dantasz",
     image: "https://i.imgur.com/72JbTJm.jpg",
     description: ":)",
-    likes: "182",
+    likes: 182,
   },
 ];
 
